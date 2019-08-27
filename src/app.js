@@ -26,7 +26,7 @@ const state = store.getState()
 const visibleExpenses = getVisibleExpenses(state.expenses, state.filters)
 
 const jsx = (
-    <Provider store ={store}>
+    <Provider store={store}>
         <AppRouter />
     </Provider>
 )
